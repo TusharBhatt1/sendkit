@@ -1,14 +1,7 @@
 import { Command } from "commander";
 import { sendTelegramMessage } from "sendkit-core";
-const program = new Command();
 
-type TelegramResponse = {
-	ok: boolean;
-	result?: {
-		message_id?: number;
-	};
-	description?: string;
-};
+const program = new Command();
 
 program
 	.name("sendkit")
