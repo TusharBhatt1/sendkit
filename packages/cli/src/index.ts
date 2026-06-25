@@ -22,13 +22,11 @@ program
 			process.exit(1);
 		}
 
-		console.log(token,chatId,message)
-
 		try {
-			const output = await sendTelegramMessage({
+			await sendTelegramMessage({
 				botToken: token,
 				chatId,
-				message
+				message,
 			});
 		} catch (error) {
 			console.error("Failed to send telegram message: ", error);
