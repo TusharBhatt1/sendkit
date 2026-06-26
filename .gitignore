@@ -1,7 +1,8 @@
-node_modules
+node_modules/
 .env
 .env.*
 .mcp.json
 !.env.example
 *.log
 .DS_Store
+dist/

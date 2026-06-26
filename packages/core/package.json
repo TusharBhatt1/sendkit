@@ -1,13 +1,15 @@
 {
-  "name": "sendkit-core",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
-  "exports": {
-    ".": "./src/operations.ts",
-    "./schemas": "./src/schemas.ts"
-  },
-  "dependencies": {
-    "zod": "^4.4.3"
-  }
+	"name": "@tb-dev/sendkit-core",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"exports": {
+		".": "./src/index.ts"
+	},
+	"scripts": {
+		"build": "tsdown"
+	},
+	"dependencies": {
+		"zod": "^4.4.3"
+	}
 }
