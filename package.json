@@ -15,7 +15,8 @@
     "fmt": "oxfmt",
     "fmt:fix": "oxfmt --fix",
     "typecheck": "tsc --noEmit",
-    "build:core": "bun run --filter @tb-dev/sendkit-core build"
+    "build:core": "bun run --filter @tb-dev/sendkit-core build",
+    "build:cli": "bun run --filter @tb-dev/sendkit-cli build"
   },
   "devDependencies": {
     "@types/node": "^26.0.1",

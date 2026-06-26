@@ -1,8 +1,11 @@
 {
-  "name": "@tb-dev/sendkit",
+  "name": "@tb-dev/sendkit-cli",
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "scripts": {
+    "build":"tsdown"
+  },
   "dependencies": {
     "commander": "^15.0.0",
     "@tb-dev/sendkit-core": "workspace:*"
