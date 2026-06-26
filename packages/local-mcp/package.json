@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "bun build ./src/index.ts --outdir ./build --target=bun"
+    "build": "tsdown"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
