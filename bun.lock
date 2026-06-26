@@ -5,6 +5,17 @@
     "": {
       "name": "sendkit-workspace",
     },
+    "apps/remote-mcp": {
+      "name": "remote-mcp",
+      "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.29.0",
+        "hono": "^4.12.27",
+        "sendkit-core": "workspace:*",
+      },
+      "devDependencies": {
+        "@types/node": "^26.0.1",
+      },
+    },
     "packages/cli": {
       "name": "sendkit",
       "version": "0.0.0",
@@ -177,6 +188,8 @@
     "range-parser": ["range-parser@1.2.1", "", {}, "sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg=="],
 
     "raw-body": ["raw-body@3.0.2", "", { "dependencies": { "bytes": "~3.1.2", "http-errors": "~2.0.1", "iconv-lite": "~0.7.0", "unpipe": "~1.0.0" } }, "sha512-K5zQjDllxWkf7Z5xJdV0/B0WTNqx6vxG70zJE4N0kBs4LovmEYWJzQGxC9bS9RAKu3bgM40lrd5zoLJ12MQ5BA=="],
+
+    "remote-mcp": ["remote-mcp@workspace:apps/remote-mcp"],
 
     "require-from-string": ["require-from-string@2.0.2", "", {}, "sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw=="],
 

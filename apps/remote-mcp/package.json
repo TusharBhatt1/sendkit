@@ -1,0 +1,14 @@
+{
+  "name": "remote-mcp",
+  "dependencies": {
+    "hono": "^4.12.27",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "sendkit-core": "workspace:*"
+  },
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1"
+  }
+}
