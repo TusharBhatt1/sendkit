@@ -4,7 +4,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import {
 	sendTelegramMessage,
 	telegramMessageInputSchema,
-} from "@tb-dev/sendkit-core";
+} from "@tb-eng/sendkit-core";
 
 const token = process.env.TELEGRAM_BOT_TOKEN;
 

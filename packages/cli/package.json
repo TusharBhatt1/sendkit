@@ -1,5 +1,5 @@
 {
-  "name": "@tb-dev/sendkit",
+  "name": "@tb-eng/sendkit",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "commander": "^15.0.0",
-    "@tb-dev/sendkit-core": "workspace:*"
+    "@tb-eng/sendkit-core": "workspace:*"
   }
 }

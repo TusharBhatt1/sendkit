@@ -11,6 +11,6 @@ export default defineConfig({
   outDir: "dist",
   outExtensions: () => ({ js: ".js", dts: ".d.ts" }),
   deps: {
-    neverBundle: ["@modelcontextprotocol/sdk","@tb-dev/sendkit-core","zod"],
+    neverBundle: ["@modelcontextprotocol/sdk","@tb-eng/sendkit-core","zod"],
   },
 });

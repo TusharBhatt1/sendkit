@@ -21,31 +21,31 @@
         "@clerk/backend": "^3.8.4",
         "@clerk/mcp-tools": "^0.5.0",
         "@modelcontextprotocol/sdk": "^1.29.0",
-        "@tb-dev/sendkit-core": "workspace:*",
+        "@tb-eng/sendkit-core": "workspace:*",
         "hono": "^4.12.27",
       },
     },
     "packages/cli": {
-      "name": "@tb-dev/sendkit",
+      "name": "@tb-eng/sendkit",
       "version": "0.0.0",
       "dependencies": {
-        "@tb-dev/sendkit-core": "workspace:*",
+        "@tb-eng/sendkit-core": "workspace:*",
         "commander": "^15.0.0",
       },
     },
     "packages/core": {
-      "name": "@tb-dev/sendkit-core",
+      "name": "@tb-eng/sendkit-core",
       "version": "0.0.0",
       "dependencies": {
         "zod": "^4.4.3",
       },
     },
     "packages/local-mcp": {
-      "name": "@tb-dev/sendkit-mcp",
+      "name": "@tb-eng/sendkit-mcp",
       "version": "0.0.0",
       "dependencies": {
         "@modelcontextprotocol/sdk": "^1.29.0",
-        "@tb-dev/sendkit-core": "workspace:*",
+        "@tb-eng/sendkit-core": "workspace:*",
         "zod": "^4.4.3",
       },
     },
@@ -203,11 +203,11 @@
 
     "@tanstack/query-core": ["@tanstack/query-core@5.101.1", "", {}, "sha512-Y6Y92dkXtNqx67m2pMSxUsA3zOCwv862JexZRP8/EPwvKXMPu9m8rv43spiXWzOUIggQ3SQApttALStzhA8B4g=="],
 
-    "@tb-dev/sendkit": ["@tb-dev/sendkit@workspace:packages/cli"],
+    "@tb-eng/sendkit": ["@tb-eng/sendkit@workspace:packages/cli"],
 
-    "@tb-dev/sendkit-core": ["@tb-dev/sendkit-core@workspace:packages/core"],
+    "@tb-eng/sendkit-core": ["@tb-eng/sendkit-core@workspace:packages/core"],
 
-    "@tb-dev/sendkit-mcp": ["@tb-dev/sendkit-mcp@workspace:packages/local-mcp"],
+    "@tb-eng/sendkit-mcp": ["@tb-eng/sendkit-mcp@workspace:packages/local-mcp"],
 
     "@tybys/wasm-util": ["@tybys/wasm-util@0.10.3", "", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-F3fo1MYrRJYL3zER0OUOmkutjr1Vp23m7OsSgp7nq4SP6OqX6C/56XFIPAl5bt3zaBRjmW7SGz3u/6LwFpYcOg=="],
 
