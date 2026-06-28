@@ -4,7 +4,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import {
 	fetchClerkAuthorizationServerMetadata,
 	generateClerkProtectedResourceMetadata,
-} from "@clerk/mcp-tools/server";
+} from "@clerk/mcp-tools/server"; 
 import { WebStandardStreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js";
 
 import {
@@ -108,7 +108,9 @@ app.get("/.well-known/oauth-protected-resource/:botToken/mcp", (c) => {
 	);
 });
 
-app.get("/:botToken/mcp", async (c) => {
+app.all("/:botToken/mcp", async (c) => {
+
+  console.log(c.req)
 	const botToken = c.req.param("botToken");
 	const authHeader = c.req.header("authorization");
 
