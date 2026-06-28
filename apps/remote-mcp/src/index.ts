@@ -109,8 +109,6 @@ app.get("/.well-known/oauth-protected-resource/:botToken/mcp", (c) => {
 });
 
 app.all("/:botToken/mcp", async (c) => {
-
-  console.log(c.req)
 	const botToken = c.req.param("botToken");
 	const authHeader = c.req.header("authorization");
 
