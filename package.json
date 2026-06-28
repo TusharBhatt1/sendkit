@@ -18,7 +18,8 @@
 		"build:core": "bun run --filter @tb-eng/sendkit-core build",
 		"build:cli": "bun run --filter @tb-eng/sendkit build",
 		"build:mcp": "bun run --filter @tb-eng/sendkit-mcp build",
-		"release:pack:core": "bun run --filter @tb-eng/sendkit-core pack:dry"
+		"release:pack:core": "bun run --filter @tb-eng/sendkit-core pack:dry",
+		"release:pack:cli": "bun run --filter @tb-eng/sendkit pack:dry"
 	},
 	"devDependencies": {
 		"@types/node": "^26.0.1",

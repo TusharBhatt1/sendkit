@@ -1,13 +1,29 @@
 {
-  "name": "@tb-eng/sendkit",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build":"tsdown"
-  },
-  "dependencies": {
-    "commander": "^15.0.0",
-    "@tb-eng/sendkit-core": "workspace:*"
-  }
+	"name": "@tb-eng/sendkit",
+	"version": "0.0.0",
+	"type": "module",
+	"bin": {
+		"sendkit": "./dist/index.js" 
+	},
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js"
+		}
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"module": "./dist/index.js",
+	"scripts": {
+		"build": "tsdown",
+		"pack:dry": "bun run build && bun pm pack --dry-run",
+		"prepublishOnly": "bun run build"
+	},
+	"dependencies": {
+		"commander": "^15.0.0",
+		"@tb-eng/sendkit-core": "workspace:*"
+	}
 }
