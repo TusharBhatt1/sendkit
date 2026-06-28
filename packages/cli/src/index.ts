@@ -41,7 +41,7 @@ program
 
 program
   .name("telegram")
-  .description("SendKit a messages to Telegram groups and channels.")
+  .description("SendKit send a message to Telegram groups and channels.")
   .command("telegram")
   .argument("<chatId>", "Telegram chatId")
   .argument("<message>", "Message text to send")
