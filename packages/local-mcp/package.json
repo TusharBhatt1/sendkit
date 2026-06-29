@@ -1,6 +1,6 @@
 {
 	"name": "@tb-eng/sendkit-mcp",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"type": "module",
 	"bin": {
 		"sendkit-mcp": "./dist/index.js"
