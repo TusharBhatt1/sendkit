@@ -1,6 +1,6 @@
 {
 	"name": "@tb-eng/sendkit",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"type": "module",
 	"bin": {
 		"sendkit": "./dist/index.js" 
