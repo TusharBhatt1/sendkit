@@ -4,8 +4,7 @@ Send Telegram messages from code, the terminal, or AI agents.
 
 SendKit is an ecosystem for sending Telegram messages through a simple, unified interface.
 
-<img width="460" height="247" alt="image" src="https://github.com/user-attachments/assets/42fa48cc-511f-4506-836e-77cc1db699a2" />
-
+<img width="464" height="447" alt="image" src="https://github.com/user-attachments/assets/233a022d-b6b7-4dd5-bcc7-eb7ccbf02c0b" />
 
 ## Packages
 
